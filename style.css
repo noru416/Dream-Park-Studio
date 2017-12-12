@@ -1,0 +1,88 @@
+html, body {
+  width: 100%;
+}
+body {
+
+}
+a {
+  color: inherit;
+}
+ul,li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.app {
+  width: 100%;
+}
+.navbar {
+  position: fixed;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+  min-height: 0;
+  line-height: normal;
+  border: none;
+  height: auto;
+  border-radius: 0;
+  background-color: #d5d5d5;
+}
+.navbar .cols-wrapper .col-left .col-right {
+  height: 60px;
+}
+.cols-wrapper {
+  display: flex;
+}
+.col-left {
+  height: 60px;
+  padding-left: 2em;
+}
+.logo {
+  display: inline-flex;
+  align-items: center;
+  width: 136px;
+  height: 100%;
+  padding: 0 15px;
+}
+.logo span {
+  text-align: center;
+  line-height: 43px;
+  width: 106px;
+  height: 43px;
+}
+.col-right {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.col-right > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.region-navigation {
+
+}
+.navigation-list {
+  display: flex;
+  height: 60px;
+}
+.navigation-list li {
+  height: inherit;
+  border-left: 1px solid #c5c5c5;
+  font-size: .786em;
+  text-transform: uppercase;
+  letter-spacing: .12ex;
+}
+.navigation-list li a {
+  align-items: center;
+  padding: 0 20px;
+  height: inherit;
+}
+.menu-toggle-wrap {
+  width: 122px;
+}
